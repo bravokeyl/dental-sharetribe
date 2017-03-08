@@ -1,0 +1,25 @@
+I, [2017-03-07T17:12:29.620705 #31353]  INFO -- : Refreshing Gem list
+/home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/newrelic_rpm-3.9.1.236/lib/new_relic/agent/configuration/default_source.rb:675: warning: key :disable_mongo is duplicated and overwritten on line 987
+I, [2017-03-07T17:12:41.161018 #31353]  INFO -- : listening on addr=/home/bk/sharetribe/sharetribe/shared/sockets/unicorn.sock fd=12
+I, [2017-03-07T17:12:41.161201 #31353]  INFO -- : worker=0 spawning...
+I, [2017-03-07T17:12:41.166133 #31353]  INFO -- : worker=1 spawning...
+I, [2017-03-07T17:12:41.166768 #31361]  INFO -- : worker=0 spawned pid=31361
+I, [2017-03-07T17:12:41.166973 #31361]  INFO -- : worker=0 ready
+I, [2017-03-07T17:12:41.172364 #31353]  INFO -- : master process ready
+I, [2017-03-07T17:12:41.172913 #31364]  INFO -- : worker=1 spawned pid=31364
+I, [2017-03-07T17:12:41.173108 #31364]  INFO -- : worker=1 ready
+/home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/newrelic_rpm-3.9.1.236/lib/new_relic/agent/vm/mri_vm.rb:32: warning: GC.stat keys were changed from Ruby 2.1. In this case, you refer to obsolete `total_allocated_object' (new key is `total_allocated_objects'). Please check <https://bugs.ruby-lang.org/issues/9924> for more information.
+/home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/newrelic_rpm-3.9.1.236/lib/new_relic/agent/vm/mri_vm.rb:32: warning: GC.stat keys were changed from Ruby 2.1. In this case, you refer to obsolete `total_allocated_object' (new key is `total_allocated_objects'). Please check <https://bugs.ruby-lang.org/issues/9924> for more information.
+ArgumentError: Already running on PID:31353 (or pid=/home/bk/sharetribe/sharetribe/shared/pids/unicorn.pid is stale)
+  /home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+  /home/bk/.rbenv/versions/2.3.1/bin/unicorn:23:in `load'
+  /home/bk/.rbenv/versions/2.3.1/bin/unicorn:23:in `<top (required)>'
+ArgumentError: Already running on PID:31353 (or pid=/home/bk/sharetribe/sharetribe/shared/pids/unicorn.pid is stale)
+  /home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/bk/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+  /home/bk/.rbenv/versions/2.3.1/bin/unicorn:23:in `load'
+  /home/bk/.rbenv/versions/2.3.1/bin/unicorn:23:in `<top (required)>'
+DEPRECATION WARNING: TransactionService::Transaction.query: this is deprecated and will be removed in the near future. (called from query at /home/bk/sharetribe/sharetribe/app/services/transaction_service/transaction.rb:57)
